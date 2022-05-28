@@ -76,7 +76,7 @@ nav {
 }
 
 .item {
-  height: 540px;
+  height: 600px;
   width: 100%;
 }
 
@@ -113,7 +113,7 @@ nav {
   background-color: #01031a;
   opacity: 60%;
   right: 0;
-  margin-top: 28%;
+  margin-top: 31%;
   line-height: 50%;
   color: white;
   z-index: 2;
@@ -203,11 +203,11 @@ footer {
 }
 
 #colfoot #emails {
-  width: 80%;
+  width: 100%;
 }
 
 #colfoot #submit {
-  width: 35%;
+  width: 100%;
   background: #0071ba;
   border: none;
   margin-top: 3px;
@@ -309,6 +309,7 @@ footer {
 @media only screen and (max-width: 390px) {
   #firstcol #submit {
     font-size: 7px;
+    width: 100%;
   }
   .item {
     height: 200px;
